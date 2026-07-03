@@ -51,7 +51,10 @@ Based on the data, the following Web3 trading strategies are recommended:
 ## Setup & Execution
 1. Clone this repository.
 2. Install dependencies: `pip install -r requirements.txt`
-3. Ensure the datasets (`historical_data DS.csv` and `fear_greed_index DS.csv`) are located in the `/data` folder.
-4. Run the analysis: `python eda_analysis.py`
+3. Download the required datasets from the original assignment links:
+   - [Historical Trader Data](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing)
+   - [Fear & Greed Index](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing)
+4. Place both downloaded files inside a `/data` folder in the root directory. Name them `historical_data DS.csv` and `fear_greed_index DS.csv`.
+5. Run the analysis: `python eda_analysis.py`
 
-*Note: Visualizations are automatically saved to the `/plots` directory upon execution.*
+*Note: Datasets are excluded from this repository via .gitignore to adhere to GitHub file size limits and data versioning best practices.*
